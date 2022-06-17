@@ -1,3 +1,4 @@
+//window.alert ('Гарного настрою, ми з УкраЇни!');
 // Додаємо слухач кліку: метод, що буде виконуватися при кліку на кнопку
 // "Додати задачу"
 document.getElementById('addListItem').addEventListener('click', () => {
@@ -11,7 +12,7 @@ document.getElementById('addListItem').addEventListener('click', () => {
     // Створюємо елемент
     let listItem = document.createElement('li');
     // Встановлюємо його контент рівним значенню з текстового поля
-    listItem.textContent = listItemContentText;
+    listItem.innerHTML = listItemContentText  + '<span class="delete-item-button">X</span>';
 
     // Додаємо створений елемент до списку
     document.getElementById('myList').appendChild(listItem);
@@ -29,4 +30,18 @@ document.getElementById('loadItems').addEventListener('click', () => {
   }
   xhttp.open('GET', '_items.html', true);
   xhttp.send();
-})
+
+});
+
+document.getElementById('deleteItems').addEventListener('click', () => {
+    document.getElementById('myList').innerHTML  = '';
+});
+
+document.getElementById('myList').addEventListener('click', (e) => {
+    let target = e.target;
+
+    if(target.classList.contains('delete-item-button')) {
+        document.getElementById('myList').removeChild(target.parentNode);
+    }
+});
+

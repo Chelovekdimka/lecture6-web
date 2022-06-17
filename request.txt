@@ -1,0 +1,36 @@
+Request Headers:
+
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en-US;q=0.9,en;q=0.8,ru-RU;q=0.7
+Connection: keep-alive
+Cookie: Idea-e1fe6033=ce0b6781-945c-449b-8064-24c588a1b4c9
+Host: localhost:63342
+If-Modified-Since: Sun, 29 May 2022 22:15:09 GMT
+Referer: http://localhost:63342/lecture6-web/index.html?_ijt=bkksj179l1jkmkrl6ne6t0cjun&_ij_reload=RELOAD_ON_SAVE
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
+
+Source:
+
+GET /lecture6-web/_items.html HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en-US;q=0.9,en;q=0.8,ru-RU;q=0.7
+Connection: keep-alive
+Cookie: Idea-e1fe6033=ce0b6781-945c-449b-8064-24c588a1b4c9
+Host: localhost:63342
+If-Modified-Since: Sun, 29 May 2022 22:15:09 GMT
+Referer: http://localhost:63342/lecture6-web/index.html
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"

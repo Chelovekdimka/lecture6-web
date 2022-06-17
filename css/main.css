@@ -1,0 +1,45 @@
+li.aligned-content {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+li.aligned-content > i.material-icons {
+    margin-right: 1em;
+}
+
+li.aligned-content > a {
+    text-decoration: none;
+    color: black !important;
+}
+
+li.aligned-content:hover {
+    color: chocolate !important;
+}
+
+li.aligned-content:hover a {
+    color: chocolate !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.word-breaker {
+    word-break: break-word;
+}
+
+#todo-list-data-container {
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+/** Custom margins **/
+
+.mt1 {
+    margin-top: .25em;
+}
+
+.mb1 {
+    margin-bottom: .25em;
+}
