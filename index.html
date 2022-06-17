@@ -1,24 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Моя перша сторінка</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Тестова сторiнка Романюка Дмитра</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <script src="https://use.fontawesome.com/d45fc0ad71.js"></script>
 </head>
 <body>
-  <h1>Моя перша сторінка</h1>
-  <div class="todoList">
-    <h3>Список задач</h3>
-    <ul id="myList">
-    </ul>
-    <input type="text" name="newItemInput" id="newItemInput">
-    <input type="button" name="addListItem" value="Додати задачу" id="addListItem">
-    <input type="button" name="loadItems" value="Завантажити задачі" id="loadItems">
-  </div>
-  <div id="dataLoader">
 
-    <p id="data"></p>
-  </div>
-  <script src="script.js"></script>
+<nav class="light-blue white-text">
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col m6">
+            <div class="card darken-1">
+                <div class="card-panel white">
+                    <span class="card-title">Тестова сторiнка Романюка Дмитра</span>
+
+                    <div class="row">
+                        <div class="col s12">
+                            <img class="materialboxed responsive-img darken-1" src="/media/img/main-photo.jpg"
+                                 alt="Головне фото">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col m5 offset-m1">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card darken-1">
+                        <div class="card-panel white">
+                            <span class="card-title">Контакти</span>
+                            <div class="row">
+                                <div class="col-s12">
+                                    <ul class="collection">
+                                        <li class="collection-item aligned-content">
+                                            <i class="material-icons">call</i>
+                                            <a href="tel:+380933930793"> +38 (093) 393-07-93 </a>
+                                        </li>
+                                        <li class="collection-item aligned-content">
+                                            <i class="material-icons">alternate_email</i>
+                                            <a href="mailto:tatuaj.romanyuk@gmail.com">tatuaj.romanyuk@gmail.com</a>
+                                        </li>
+                                        <li class="collection-item aligned-content">
+                                            <i class="material-icons">public</i>
+                                            <a href="skype:Bespartiyniyprimus">Bespartiyniyprimus</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12">
+                    <div class="card darken-1">
+                        <div class="card-panel white" id="todoList-wrapper"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer yellow black-text">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5>Footer Content</h5>
+                <p class="text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5>Links</h5>
+                <ul>
+                    <li><a class="text-lighten-3" href="https://github.com/Chelovekdimka" target="_blank"><i
+                            class="fa fa-github"></i> Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <span class="black-text">© 2014 Copyright Text</span>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="/js/todo-list.js"></script>
+<script src="/js/boot.js"></script>
 </body>
 </html>

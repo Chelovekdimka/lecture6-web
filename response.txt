@@ -1,0 +1,26 @@
+Responce Headers:
+
+accept-ranges: bytes
+cache-control: no-cache
+content-length: 105
+content-type: text/html
+date: Wed, 01 Jun 2022 15:55:46 GMT
+last-modified: Sun, 29 May 2022 22:15:09 GMT
+server: IntelliJ IDEA 2021.3.2
+X-Content-Type-Options: nosniff
+x-frame-options: SameOrigin
+x-xss-protection: 1; mode=block
+
+Source:
+
+HTTP/1.1 200 OK
+content-type: text/html
+server: IntelliJ IDEA 2021.3.2
+date: Wed, 01 Jun 2022 16:30:04 GMT
+x-frame-options: SameOrigin
+X-Content-Type-Options: nosniff
+x-xss-protection: 1; mode=block
+accept-ranges: bytes
+cache-control: no-cache
+last-modified: Sun, 29 May 2022 22:15:09 GMT
+content-length: 105
